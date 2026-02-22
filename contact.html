@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f9f2;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #388e3c;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        input[type="submit"] {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact the farmer</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
