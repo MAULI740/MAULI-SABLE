@@ -1,0 +1,74 @@
+body {
+    font-family: "Noto Sans Devanagari", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: green;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img{
+    width: 1500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba( rgb(15, 23, 134), blue, alpha);
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
